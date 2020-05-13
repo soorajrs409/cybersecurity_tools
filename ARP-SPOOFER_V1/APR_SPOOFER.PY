@@ -34,5 +34,5 @@ try:
         time.sleep(2)
 
 except KeyboardInterrupt:
-    print("Killing ARP-SPOOFER")
+    print("[*] Killing ARP-SPOOFER [*]")
     exit(0)
