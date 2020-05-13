@@ -1,4 +1,4 @@
-ARP-SPOOFER_V1 is a tool that automates the arpspoofing with scapy.
+ARP-SPOOFER_V1 is a tool that automates the arpspoofing with scapy. Can be used for deep packet inspection.
 
 usage : python3 ARP-SPOOFER.PY "router_ip" "target_ip"
 
