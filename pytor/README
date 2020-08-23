@@ -1,0 +1,12 @@
+pytor.py obtains a connection from the TOR network. Uses the connection as a proxy through which we’ll flow our Internet requests. Displays geolocation information for the TOR computer we’re using as a proxy. The information such as the city, region, country and also the Internet provider of our connecting TOR node.
+
+Please make sure TOR is installed before executing the script
+
+INSTALLING TOR ON LINUX
+
+apt install tor
+systemctl start tor
+
+INSTALLING TOR ON WINDOWS
+
+tor --service install -options ControlPort 9051
