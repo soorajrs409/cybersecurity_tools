@@ -41,7 +41,7 @@ for i in files:
     print(i)
 print("\nTHE ABOVE MENTIONED FILES WILL BE DECRYPTED\n")
 
-choice = input("type yes to decrypt : ")
+choice = input("type yes to decrypt or no to quit : ")
 print("\n")
 if choice.lower() == "yes":
     for i in files:
