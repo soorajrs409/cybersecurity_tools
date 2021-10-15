@@ -96,3 +96,5 @@ docker run -td --network < network name > <image>
 
 The steps and methods mentioned here are some of the basic practices that can help to run containers in a secure way. The implementation of container security entirely depends on the nature of applications running in containers. We will take a deep look into more methods and techniques in upcoming parts.
 
+
+
