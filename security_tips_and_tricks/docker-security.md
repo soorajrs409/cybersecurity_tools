@@ -1,4 +1,4 @@
-DOCKER CONTAINER SECURITY PRACTICES - Part 1
+Docker Container Security - Part 1
 
 As a result of my research on container security, i was able to figure out few different methods and configurations that can used to secure the containers. Here i am specifically talking about docker but the principles are same for every container tech. 
 
