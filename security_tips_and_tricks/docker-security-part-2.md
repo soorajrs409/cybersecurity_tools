@@ -89,7 +89,7 @@ sudo ./docker-bench-security.sh (for docker security auditing)
 sudo ./docker-bench-security.sh -c host_configuration (for auditing host security)
 
 
-## Setting auditing rules
+## 3) Setting auditing rules
 
 Auditing rules is one of the important method which helps in maintaining the security practices efficiently. It helps to get more accurate results very fast. Here we are going to use auditd for creating audit rules and for monitoring binaries and user interactions on a host
 
