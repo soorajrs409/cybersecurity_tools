@@ -119,31 +119,31 @@ sudo aureport
 
 Summary Report
 ======================
-Range of time in logs: 20/10/21 12:48:16.134 - 20/10/21 12:48:36.864
-Selected time for report: 20/10/21 12:48:16 - 20/10/21 12:48:36.864
-Number of changes in configuration: 3
-Number of changes to accounts, groups, or roles: 0
-Number of logins: 0
-Number of failed logins: 0
-Number of authentications: 0
-Number of failed authentications: 0
-Number of users: 2
-Number of terminals: 4
-Number of host names: 1
-Number of executables: 3
-Number of commands: 2
-Number of files: 0
-Number of AVC's: 0
-Number of MAC events: 0
-Number of failed syscalls: 0
-Number of anomaly events: 0
-Number of responses to anomaly events: 0
-Number of crypto events: 0
-Number of integrity events: 0
-Number of virt events: 0
-Number of keys: 0
-Number of process IDs: 6
-Number of events: 17
+Range of time in logs: 20/10/21 12:48:16.134 - 20/10/21 12:48:36.864 \
+Selected time for report: 20/10/21 12:48:16 - 20/10/21 12:48:36.864 \
+Number of changes in configuration: 3 \
+Number of changes to accounts, groups, or roles: 0 \
+Number of logins: 0 \
+Number of failed logins: 0 \
+Number of authentications: 0 \
+Number of failed authentications: 0 \
+Number of users: 2 \
+Number of terminals: 4 \
+Number of host names: 1 \
+Number of executables: 3 \
+Number of commands: 2 \
+Number of files: 0 \
+Number of AVC's: 0 \
+Number of MAC events: 0 \
+Number of failed syscalls: 0 \
+Number of anomaly events: 0 \
+Number of responses to anomaly events: 0 \
+Number of crypto events: 0 \
+Number of integrity events: 0 \
+Number of virt events: 0 \
+Number of keys: 0 \
+Number of process IDs: 6 \
+Number of events: 17 \
 
 
 ### create audit rules 
