@@ -168,7 +168,7 @@ sudo auditctl -l
 
 ii) copy the output and paste it at the last line of /etc/audit/rules.d/audit.rules and that's it. Now the rules are persistent. 
 
-
+reference auditd - https://linuxhint.com/auditd_linux_tutorial/
 
 Here we have covered some of the important factors of securing the host for running containers and some auditing practices that can help in running containers securely. On the next part we can go through securing the docker daemon. 
 
