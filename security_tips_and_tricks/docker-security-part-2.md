@@ -143,7 +143,7 @@ Number of integrity events: 0 \
 Number of virt events: 0 \
 Number of keys: 0 \
 Number of process IDs: 6 \
-Number of events: 17 \
+Number of events: 17 
 
 
 ### create audit rules 
