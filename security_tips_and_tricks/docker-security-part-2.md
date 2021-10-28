@@ -150,7 +150,7 @@ Number of events: 17
 
 This will watch and logs the binary execution. 
 
-sudo auditctl -w <bin to be watched> -k <alias or name >
+sudo auditctl -w "bin to be watched" -k "alias or name"
 
 example: sudo auditctl -w /usr/bin/docker -k myDocker
 
