@@ -1,12 +1,7 @@
 import socket
 import sys
 
-print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-print("$    REVERSE SHELL CREATED BY   $")
-print("$           SOORAJ              $")
-print("$         VERSION 1.0           $")
-print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-print('\n')
+
 
 def create_socket():
     try:
