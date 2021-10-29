@@ -1,10 +1,6 @@
 import socket
 
-print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-print("$         CREATED BY            $")
-print("$          SOORAJ               $")
-print("$         VERSION 2.0           $")
-print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+
 
 
 class PortScanner:
