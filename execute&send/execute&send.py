@@ -26,3 +26,4 @@ for i in wifi_list:
 
 send_email("email comes here", "password comes here", result)
 #Note : allow access to less secure apps should be turned on for receiving the email
+
