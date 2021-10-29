@@ -1,11 +1,7 @@
 from scapy.all import *
 import sys, time
 
-print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-print("$    ARP-SPOOFER CREATED BY     $")
-print("$          SOORAJ               $")
-print("$        VERSION 1.0            $")
-print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+
 
 
 # Crafting the packets
