@@ -4,6 +4,6 @@
 
 #### Encryption
 
-#### Backenf configuration
+#### Backend configuration
 
 #### Testing  
