@@ -1,4 +1,4 @@
-# Not complteted
+# Not completed
 
 ## Things to do
 
