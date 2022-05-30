@@ -4,7 +4,7 @@ from threading import Timer
 from datetime import datetime
 
 REPORT_TIMER = 60
-EMAIL_ADDRESS = "someemail@email.com"
+EMAIL_ADDRESS = "some email@email.com"
 EMAIL_PASS = "password of the email"
 
 
