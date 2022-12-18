@@ -8,4 +8,6 @@
 
 ### hackvector.py --data "the payload that has to be encoded"
 
+### hackvector.py --file payload-file.txt --output output-filename
+
 #### Please enter the payloads inside quotes
