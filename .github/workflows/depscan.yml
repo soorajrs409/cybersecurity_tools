@@ -9,8 +9,10 @@ jobs:
         run: npm install -g @cyclonedx/cdxgen
       - name: installDepScan
         run: pip install owasp-depscan
+      - name: depScan
+        run: RESULT=$(depscan --src $PWD)
       - name: Pull Request Commenter
         uses: int128/comment-action@v1
         with:
-          run: depscan --src $PWD
+          run: echo $RESULT
           post-on-success: ${run.output}
