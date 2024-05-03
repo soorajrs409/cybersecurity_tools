@@ -1,0 +1,13 @@
+name: learn-github-actions
+on: push
+jobs:
+  depScanTest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: installDepScan
+        run: pip install owasp-depscan
+      - name: listing
+        run: ls -la
+      - name: runScan
+        run: depscan --src $PWD 
