@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: installing_npm_modules
+        run: npm install -g @cyclonedx/cdxgen
       - name: installDepScan
         run: pip install owasp-depscan
       - name: listing
