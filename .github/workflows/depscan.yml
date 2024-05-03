@@ -10,9 +10,9 @@ jobs:
       - name: installDepScan
         run: pip install owasp-depscan
       - name: depScan
-        run: RESULT=$(depscan --src $PWD)
+        run: depscan --src $PWD >> depscan.txt
       - name: Pull Request Commenter
         uses: int128/comment-action@v1
         with:
-          run: echo $RESULT
+          run: cat depscan.txt
           post-on-success: ${run.output}
