@@ -12,9 +12,8 @@ jobs:
       - name: listing
         run: ls -la
       - name: runScan
-        run: RESULT=$(depscan --src $PWD) 
+        run: RESULT=$(depscan --src $PWD -o report) 
       - name: Pull Request Commenter
-        uses: sorenlouv/pr-push-action@1.0
+        uses: Libra-foundation/Pull-Request-Comments@V1.1.1
         with:
-          comment: echo $RESULT
-          cmd: echo $RESULT
+          filename: $PWD/report
