@@ -1,4 +1,4 @@
-honame: learn-github-actions
+name: learn-github-actions
 on: pull_request
 jobs:
   depScanTest:
