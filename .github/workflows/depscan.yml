@@ -9,11 +9,8 @@ jobs:
         run: npm install -g @cyclonedx/cdxgen
       - name: installDepScan
         run: pip install owasp-depscan
-      - name: listing
-        run: ls -la
-      - name: runScan
-        run: depscan --src $PWD --reports-dir $PWD/reports
       - name: Pull Request Commenter
-        uses: Libra-foundation/Pull-Request-Comments@V1.1.1
+        uses: int128/comment-action@v1
         with:
-          filename: $PWD/reports/*
+          run: depscan --src $PWD
+          post-on-success: ${run.output}
